@@ -1,0 +1,62 @@
+.cabecalho{
+    background-color: blueviolet;
+    border: 15px solid  transparent;
+    margin-bottom: 25px;
+    padding: 15px;
+    
+}
+
+.cabecalho-titulo{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    color: cadetblue;
+
+}
+
+.cabecalho-subitulo{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: bisque;
+
+}
+.rodape{
+    background-color: aqua;
+
+}
+
+body{
+    margin: 0;
+    margin-left: 0;
+}
+.div-botao{
+    background-color: aquamarine;
+    height: 150px;
+    width: 150px;
+
+}
+
+.div-video-container{
+    max-height: 300px;
+    overflow: hidden;
+    position: relative;
+
+}
+.div-conteudo{
+    background-color: chartreuse;
+    display: flex ;
+    align-items: start;
+    justify-content: center;
+    gap: 10px 20px;
+    height: 400px;
+}
+.video-player{
+    width: 100%;
+    margin-top: -110px;
+
+}
+.video-principal{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
